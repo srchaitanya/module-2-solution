@@ -1,0 +1,42 @@
+body{
+	font: normal 14px arial;
+}
+div div{
+	background-color: #aaaaaa;
+}
+
+div#container > div{
+	float:left;
+	margin:10px;
+	width: 30%;
+	box-sizing: border-box;
+}
+
+#menutitle1, #menutitle2, #menutitle3{
+	font: bold 18px verdana;
+	width:30%;
+	position: relative;
+	float:right;
+}
+
+#menutitle1{
+	background-color: pink;
+}
+
+#menutitle2{
+	background-color: red;
+}
+
+#menutitle3{
+	background-color: yellow;
+}
+
+.contentclass {
+	padding: 15px;
+	clear: right;
+}
+
+/******* Media queries **********/
+@media(min-width: 992px) {
+
+}
